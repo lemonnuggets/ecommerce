@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Register</title>
+    <h1>Register</h1>
+  </head>
+
+  <body>
+    <br />
+    <form action="/register" method="POST">
+      <div>
+        <label for="name">Name</label><br />
+        <input type="text" id="name" name="name" required />
+      </div>
+      <br />
+      <div>
+        <label for="username">Username</label><br />
+        <input type="text" id="username" name="username" required />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password</label><br />
+        <input type="password" id="password" name="password" required />
+      </div>
+      <br />
+      <button type="submit">Create Account</button>
+    </form>
+    <br />
+  </body>
+  Already have an account?
+  <a href="/login">Login here!</a>
+</html>

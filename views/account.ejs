@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Account Info</title>
+    <h1>Welcome <%= name %>!</h1>
+  </head>
+
+  <body>
+    <h3>Account Info</h3>
+    <div>
+      <ul>
+        <li>Username : <%= username %></li>
+        <li>Cart : <%= cart %></li>
+        <li>Bought : <%= bought %></li>
+      </ul>
+    </div>
+    <form action="/logout?_method=DELETE" method="POST">
+      <button type="submit">Log Out</button>
+    </form>
+  </body>
+</html>
